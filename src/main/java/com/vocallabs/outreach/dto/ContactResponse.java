@@ -1,0 +1,15 @@
+package com.vocallabs.outreach.dto;
+
+import lombok.*;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class ContactResponse {
+
+    private String name;
+
+    private String designation;
+
+    private String linkedinUrl;
+}

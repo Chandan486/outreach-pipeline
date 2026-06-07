@@ -1,0 +1,29 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/outreachdb
+    username: postgres
+    password: 123
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+ocean:
+  api-key: YOUR_OCEAN_KEY
+  base-url: https://api.ocean.io
+
+prospeo:
+  api-key: YOUR_PROSPEO_KEY
+  base-url: https://app.prospeo.io
+
+eazyreach:
+  api-key: YOUR_EAZYREACH_KEY
+  base-url: https://api.eazyreach.app
+
+brevo:
+  api-key: YOUR_BREVO_KEY
+  base-url: https://api.brevo.com
